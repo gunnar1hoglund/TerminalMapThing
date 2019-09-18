@@ -1,0 +1,81 @@
+@font-face 
+  font-family: myFirstFont
+  src: url('https://fonts.googleapis.com/css?family=Ubuntu+Mono')
+
+body
+    background: black
+    color: white
+    font-family: 'Ubuntu Mono', monospace
+
+button
+    float: right
+    opacity: 0
+
+input
+    font-family: 'Ubuntu Mono', monospace
+    font-size: 16px
+    
+h1
+    font-size: 24px
+
+p
+    color: white
+    margin-top: 2px
+    margin-bottom: 0
+
+.user
+    float: left
+
+
+.rectangle
+    height: 10px
+    width: 8px
+    background-color: white
+    float: right
+    margin-right: 720px
+    margin-top: 6px
+    justify-content: middle
+
+#field
+    border: none
+    outline: none
+    background-color: black
+    color: white
+    caret-color: grey
+
+#field:focus
+    border: none
+
+#mydiv
+    position: absolute
+    z-index: 9
+    background-color: #f1f1f1
+    border: 1px solid #d3d3d3
+    text-align: center
+    height: 722px
+    width: 1300px
+    border-radius: 3px
+    display: none
+
+#mydivheader
+    padding: 10px
+    cursor: move
+    z-index: 10
+    background-color: #757575
+    color: #111
+
+#mydivcontent
+    padding: 10px
+
+#exit
+    float: right
+
+
+@for $i from 1 through 7
+    #l#{$i}
+        display: none
+        transition: 200ms
+
+
+
+
